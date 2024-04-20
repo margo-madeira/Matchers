@@ -2,6 +2,7 @@ export function sortArray(users) {
   users.sort(function (a, b) {
     return b.health - a.health;
   });
+  return users;
 }
 export function showHealth(health) {
   if (health < 15) {

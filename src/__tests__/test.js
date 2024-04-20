@@ -1,8 +1,6 @@
 import { sortArray } from "../index.js";
 import { showHealth } from "../index.js";
 
-//import assert from 'node:assert';
-
 test("sortArray of gamers", () => {
   const users = [
     { name: "мечник", health: 10 },
@@ -15,9 +13,6 @@ test("sortArray of gamers", () => {
     { name: "лучник", health: 80 },
     { name: "мечник", health: 10 },
   ];
-
-  //assert.deepEqual(expResult, receivedRes);
-  //expect(deepEqual(expResult, receivedRes)).toBe(true);
 
   expect(expResult).toEqual(receivedRes);
 });
